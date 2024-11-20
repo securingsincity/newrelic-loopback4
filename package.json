@@ -9,28 +9,34 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zestmoney/newrelic-loopback4.git"
+    "url": "git+https://github.com/securingsincity/newrelic-loopback4.git"
   },
   "author": "prashant.bhaduria@zestmoney.in",
   "contributors": [
     {
       "name": "Pranay Saha",
       "email": "pranay@zestmoney.in"
+    },
+    {
+      "name": "James Hrisho",
+      "email": "james.hrisho@gmail.com"
     }
   ],
-  "files":["lib"],
+  "files": [
+    "lib"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zestmoney/newrelic-loopback4/issues"
+    "url": "https://github.com/securingsincity/newrelic-loopback4/issues"
   },
-  "homepage": "https://github.com/zestmoney/newrelic-loopback4#readme",
+  "homepage": "https://github.com/securingsincity/newrelic-loopback4#readme",
   "dependencies": {
-    "@newrelic/test-utilities": "^6.2.0",
-    "coveralls": "^3.1.1",
-    "newrelic": "^8.6.0",
-    "tap": "^15.1.2"
+    "newrelic": "^12.8.0"
   },
   "devDependencies": {
+    "tap": "^21.0.1",
+    "coveralls": "^3.1.1",
+    "@newrelic/test-utilities": "^9.1.0",
     "@loopback/core": "^3.0.0",
     "@loopback/repository": "^4.0.0",
     "@loopback/rest": "^11.0.0"
