@@ -1,5 +1,5 @@
 {
-  "name": "newrelic-loopback4",
+  "name": "@securingsincity/newrelic-loopback4",
   "version": "1.0.1",
   "description": "Loopback 4 Instrumentation for Newrelic node agent",
   "main": "index.js",
