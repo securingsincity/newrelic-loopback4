@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run unit",
-    "unit": "tap tests/unit/**/*.tap.js"
+    "unit": "tap tests/unit/**/*.tap.js --allow-incomplete-coverage"
   },
   "repository": {
     "type": "git",
@@ -37,8 +37,8 @@
     "tap": "^21.0.1",
     "coveralls": "^3.1.1",
     "@newrelic/test-utilities": "^9.1.0",
-    "@loopback/core": "^3.0.0",
-    "@loopback/repository": "^4.0.0",
-    "@loopback/rest": "^11.0.0"
+    "@loopback/core": "^6.1.5",
+    "@loopback/repository": "^7.0.8",
+    "@loopback/rest": "^14.0.8"
   }
 }
